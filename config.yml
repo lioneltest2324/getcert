@@ -3,5 +3,5 @@ credentials-file: /root/.cloudflared/d2e35cb9-d92a-418a-a776-f6ed502712e3.json
 
 ingress:
   - hostname: streamlitdata.online
-    service: http://localhost:8501
+    service: http://172.28.0.12:8501
   - service: http_status:404
